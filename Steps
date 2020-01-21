@@ -1,0 +1,17 @@
+Set up machines on cybera Rac. One machine with floating ip will act as the master node the the rest will act as slave nodes
+
+Copy installSparkWithJava8.sh on each machine
+
+On each machine run: installSparkWithJava8.sh
+
+On each machine run: source ~/.bashrc
+
+verify spark installation by running : pyspark
+
+enable passwordless ssh and set up ~/.ssh/config  and /etc/hosts files
+
+on master change the /etc/hosts file as shown in hosts file
+
+on master change the ~/.ssh/config file as shown in config file
+
+Run setupssh.py on Master node 
