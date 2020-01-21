@@ -10,8 +10,16 @@ verify spark installation by running : pyspark
 
 enable passwordless ssh and set up ~/.ssh/config  and /etc/hosts files
 
-on master change the /etc/hosts file as shown in hosts file
+on master change the /etc/hosts file as shown in hosts file. *Replace all the IP and node names with your cluster node names and IP's
 
-on master change the ~/.ssh/config file as shown in config file
+on master change the ~/.ssh/config file as shown in config file. *Replace all the IP and node names with your cluster node names and IP's
 
 Run setupssh.py on Master node 
+
+Your Cluster is all Set up
+
+on Master Run: startMaster.sh
+
+Open PublicIP:8080 to see the Spark Web UI
+
+on Workers Run: startSlave.sh SPARK_MASTER_URL
