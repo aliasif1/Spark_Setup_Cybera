@@ -1,8 +1,10 @@
 Set up machines on cybera Rac. One machine with floating ip will act as the master node the the rest will act as slave nodes
 
-Copy installSparkWithJava8.sh on each machine
+#(For Old releases) Copy installSparkWithJava8.sh on each machine 
 
-On each machine run: installSparkWithJava8.sh
+(For Latest Realease) Copy updatedinstallSparkWithJava8.sh on each machine    
+
+On each machine run: updatedinstallSparkWithJava8.sh
 
 On each machine run: source ~/.bashrc
 
